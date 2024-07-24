@@ -1,0 +1,11 @@
+name: Bingo
+version: '${project.version}'
+main: org.imradigamer.bingo.Bingo
+api-version: '1.21'
+commands:
+  bingoconfig:
+    description: Configure bingo items.
+    usage: /bingoconfig <easy/medium/hard>
+  bingo:
+    description: Start or view bingo game.
+    usage: /bingo <start/card> [easy/medium/hard]
